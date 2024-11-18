@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Image Search</title>
+    <style>
+        #results {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        #results img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Enter search term">
+    <button id="searchButton">Search</button>
+    <div id="results"></div>
+
+    <!-- Add config.js before script.js -->
+    <script src="../config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
